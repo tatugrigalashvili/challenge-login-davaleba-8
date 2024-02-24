@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    font-family: "font";
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "font";
+    src: url(NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+.background{
+    width: 55%;
+    height: 100vh;
+}
+.fototext1{
+    position: absolute;
+    left: 130px;
+    top: 570px;
+    font-weight: 800;
+    color: #7F265B;
+    font-size: 40px;
+}
+.fototext2{
+    position: absolute;
+    top: 640px;
+    left: 125px;
+    color: #7F265B;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Group{
+    position: absolute;
+    top: 100px;
+    right: 490px;
+}
+.login{
+    max-width: 420px;
+    max-height: 505px;
+}
+span{
+    position: absolute;
+    top: 180px;
+    left: 912px;
+    font-size: 36px;
+    color: #525252;
+    font-weight: 700;
+}
+p{
+    position: absolute;
+}
+.text1{
+    top: 210px;
+    left: 912px;
+}
+.google{
+    position: absolute;
+    width: 420px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 96px;
+    gap: 13px;
+    left: 912px;
+    top: 280px;
+    border: 1px solid #E8E8E8;
+    color: #828282;
+}
+.signin{
+    position: absolute;
+    left: 985px;
+    top: 330px;
+    text-align: center;
+    color: #DDDDDD;
+    font-size: 12px;
+}
+.email{
+    position: absolute;
+    left: 912px;
+    top: 380px;
+}
+.password{
+    position: absolute;
+    left: 912px;
+    top: 460px;
+}
+.email input, .password input{
+    width: 420px;
+    height: 45px;
+    border-radius: 5px;
+    background-position: right center;
+    border: 1px solid #DED2D9;
+    color: #E0E0E0;
+    padding-left: 10px;
+    padding-right: 7px;
+}
+
+.email input{
+    background-image: url(konverti.png);
+    background-repeat: no-repeat;
+}
+.password input{
+    background-image: url(key.png);
+    background-repeat: no-repeat;
+}
+.checkbox input{
+    position: absolute;
+    left: 912px;
+    top: 530px;
+}
+.checkbox{
+    max-width: 420px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.remember{
+    margin: 0;
+    position: absolute;
+    left: 937px;
+    top: 530px;
+    font-size: 12px;
+    color: #A1A1A1;
+    line-height: 16.37px;
+}
+.checkinput:hover{
+    background-color: #7F265B;
+}
+.forgot{
+    position: absolute;
+    margin: 0;
+    color: #7F265B;
+    left: 1200px;
+    top: 530px;
+    line-height: 16.37px;
+    font-weight: 600;
+}
+button{
+    width: 420px;
+    height: 50px;
+    background-color: #7F265B;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    position: absolute;
+    left: 912px;
+    top: 570px;
+}
+.registered{
+    position: absolute;
+    left: 950px;
+    top: 700px;
+}
+.Create{
+    color: #7F265B;
+    position: absolute;
+    top: 700px;
+    left: 1100px;
+    font-weight: 600;
+}
