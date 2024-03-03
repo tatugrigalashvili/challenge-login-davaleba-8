@@ -16,12 +16,12 @@ body{
     height: 100vh;
 }
 
-
 .login{
     max-width: 420px;
     max-height: 505px;
     margin-left: 8%;
-    margin-top: 100px;
+    margin-top: 50px;
+    cursor: pointer;
 }
 span{
     font-size: 36px;
@@ -29,7 +29,9 @@ span{
     font-weight: 700;
     
 }
-
+.text1{
+    margin: 0;
+}
 .google{
     width: 420px;
     height: 45px;
@@ -40,6 +42,8 @@ span{
     gap: 13px;
     border: 1px solid #E8E8E8;
     color: #828282;
+    cursor: pointer;
+    margin-top: 25px;
 }
 .signin{
     text-align: center;
@@ -50,23 +54,25 @@ span{
 .email input, .password input{
     width: 420px;
     height: 45px;
-    border-radius: 5px;
-    background-position: right center;
+    border-radius: 5px; 
     border: 1px solid #DED2D9;
     color: #E0E0E0;
     padding-left: 10px;
-    padding-right: 7px;
 }
 
 .email input{
     background-image: url(konverti.png);
     background-repeat: no-repeat;
+    background-position: 385px;
 }
 .password input{
     background-image: url(key.png);
     background-repeat: no-repeat;
+    background-position: 385px;
 }
-
+.password{
+    margin-top: 16px;
+}
 .checkbox{
     max-width: 420px;
     display: flex;
@@ -111,4 +117,17 @@ button{
     align-items: center;
     margin-top: 120px;
     margin-left: 50px;
+}
+.Group{
+    margin-bottom: 20px;
+}
+.submit{
+    width: 420px;
+    height: 50px;
+    background-color: #7F265B;
+    border-radius: 6px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 16px;
 }
